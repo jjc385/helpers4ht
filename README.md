@@ -37,7 +37,7 @@ mathjax-latex-4ht
     cd `kpsewhich -var-value TEXMFHOME`
     mkdir -p tex/latex
     cd tex/latex
-    git clone git@github.com:michal-h21/helpers4ht.git
+    git clone https://github.com/michal-h21/helpers4ht.git
 
 #Usage
 
