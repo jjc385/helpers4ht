@@ -39,12 +39,15 @@ mathjax-latex-4ht
     cd tex/latex
     git clone https://github.com/michal-h21/helpers4ht.git
 
-TODO (recommendations)
+Possible issues/ further considerations:
 
-* `TEXMFHOME`
-  * `kpsewhich -var-value TEXMFHOME` returns nothing on windows
-  * link explaining `<TEXMFHOME>` [downloading and installing packages](http://www.dickimaw-books.com/latex/novices/html/installsty.html)
-  * recommend replaceing `TEXMFHOME` with `TEXMFLOCAL`
+* `kpsewhich -var-value TEXMFHOME` may not work
+  * For example, it returns nothing on Windows
+  * The following link explains what is meant by `<TEXMF-HOME>` on various systems:  [downloading and installing packages](http://www.dickimaw-books.com/latex/novices/html/installsty.html)
+* One [should consider](https://en.wikibooks.org/wiki/LaTeX/Installing_Extra_Packages#Installing_a_package) installing this package in one's local TeX directory,
+  `<TEXMF-LOCAL>`
+
+
 
 # Usage
 
