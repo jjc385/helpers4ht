@@ -39,8 +39,7 @@ mathjax-latex-4ht
     cd tex/latex
     git clone https://github.com/michal-h21/helpers4ht.git
 
-	TODO
-
+TODO (recommendations)
 
 * `TEXMFHOME`
   * `kpsewhich -var-value TEXMFHOME` returns nothing on windows
