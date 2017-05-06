@@ -39,7 +39,15 @@ mathjax-latex-4ht
     cd tex/latex
     git clone https://github.com/michal-h21/helpers4ht.git
 
-#Usage
+	TODO
+
+
+* `TEXMFHOME`
+  * `kpsewhich -var-value TEXMFHOME` returns nothing on windows
+  * link explaining `<TEXMFHOME>` [downloading and installing packages](http://www.dickimaw-books.com/latex/novices/html/installsty.html)
+  * recommend replaceing `TEXMFHOME` with `TEXMFLOCAL`
+
+# Usage
 
 To use package in the `.cfg` file, you must include it before the `\Preamble` command:
 
